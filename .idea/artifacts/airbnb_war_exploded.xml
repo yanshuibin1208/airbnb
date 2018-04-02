@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="airbnb:war exploded">
+    <output-path>$PROJECT_DIR$/airbnb/target/airbnb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="airbnb" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/airbnb/target/airbnb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="airbnb/web/Web" />
+    </root>
+  </artifact>
+</component>
